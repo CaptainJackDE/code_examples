@@ -1,0 +1,6 @@
+#include "dialogs\justizmenu.hpp"
+#include "dialogs\locator.hpp"
+#include "dialogs\getbank.hpp"
+#include "dialogs\lockphone.hpp"
+#include "dialogs\number.hpp"
+#include "dialogs\unlockphone.hpp"
