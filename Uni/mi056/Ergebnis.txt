@@ -1,0 +1,23 @@
+9/9
+10/11
+10/13
+6/6
+
+Eine korrekte Ableitung sieht so aus. Die Ergebnisse sind aber richtig.
+Zudem fehlt der Vergleich der beiden Fibonacci-Funktionen.
+
+ fF 5 
+ => fst (fP 5)
+ => fst (fS (fP 4)) 
+ => fst (fS (fS (fP 3))) 
+ => fst (fS (fS (fS (fP 2)))) 
+ => fst (fS (fS (fS (fS (fP 1))))) 
+ => fst (fS (fS (fS (fS (fS (fP 0)))))) 
+ => fst (fS (fS (fS (fS (fS (0,1)))))) 
+ => fst (fS (fS (fS (fS (1,1)))))
+ => fst (fS (fS (fS (1,2))))
+ => fst (fS (fS (2,3)))
+ => fst (fS (3,5))
+ => fst (5,8)
+ => 5
+

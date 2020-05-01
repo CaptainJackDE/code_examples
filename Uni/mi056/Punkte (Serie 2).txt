@@ -1,0 +1,20 @@
+1: 9/9
+2: 6/11
+3: 7/14
+4: 8/8
+
+Anmerkungen
+
+In Aufgabe 2 (a) war eine rekursive Definition gefordert.
+
+Eine schrittweise Auswertung für Aufgabe 2 (b) könnte z.B. so aussehen:
+     [1,2,3] ++ [4,5]
+=3=  1 : ([2,3] ++ [4,5])
+=3=  1 : (2 : ([3] ++ [4,5]))
+=3=  1 : (2 : (3 : ([] ++ [4,5])))
+=2=  1 : (2 : (3 : [4,5]))
+=-=  1 : (2 : [3,4,5])
+=-=  1 : [2,3,4,5]
+=-=  [1,2,3,4,5]
+
+Aufgabe 3 (c) fehlt.
